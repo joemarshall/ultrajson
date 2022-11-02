@@ -114,7 +114,7 @@ jobs:
       build-artifact-path: dist
       browser: firefox
       runner: selenium
-      pyodide-version: 0.21.0'
+      pyodide-version: 0.21.0
 
   success:
     needs: [test, cross-arch,webassembly_test]
